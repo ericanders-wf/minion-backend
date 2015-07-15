@@ -37,7 +37,7 @@ DEFAULT_SCAN_CONFIG = {
 DEFAULT_BACKEND_CONFIG = """
 {
     "api": {
-        "url": "http://127.0.0.1:8383",
+        "url": "http://127.0.0.1:8383"
     },
     "celery": {
         "broker": "amqp://guest@127.0.0.1:5672//",
